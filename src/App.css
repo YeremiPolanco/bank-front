@@ -1,0 +1,105 @@
+/* App.css */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.text-center {
+  color: #bb86fc;
+  margin-bottom: 20px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  color: #e0e0e0;
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+.table thead th {
+  background-color: #2b2b2b;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info {
+  background-color: #2962ff;
+  border: none;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #0039cb;
+}
+
+.btn-danger {
+  background-color: #d32f2f;
+  border: none;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #9a0007;
+}
+
+.pagination .page-link {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #bb86fc;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: #333;
+  color: #bb86fc;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+  color: #121212;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  list-style: none;
+}
